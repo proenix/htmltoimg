@@ -1,0 +1,12 @@
+version: "3"
+services:
+  # HTMLTOIMG Service
+  htmltoimg:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: proenix/htmltoimg:latest
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "5000:80"
