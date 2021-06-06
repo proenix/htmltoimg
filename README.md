@@ -2,7 +2,13 @@
 
 Tool to generate images from provided html code using pyppeteer.
 
+## Docker repositiory
+
+https://hub.docker.com/r/proenix/htmltoimg
+
 ## Examples
+
+As a response returns file is or 500 error.
 
 ### Using curl:
 
